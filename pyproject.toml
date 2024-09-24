@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pulumi-tmpl"
+version = "0.1.0"
+description = ""
+authors = ["yailama <adakopyan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pulumi = "^3.82.0"
+pulumi-aws = "^6.0.4"
+pulumi-docker = "^4.4.1"
+fastapi = "^0.103.1"
+boto3 = "^1.28.46"
+psycopg2-binary = "^2.9.7"
+python-multipart = "^0.0.6"
+sqlalchemy = "^2.0.20"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

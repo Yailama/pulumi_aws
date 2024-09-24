@@ -1,0 +1,7 @@
+__pycache__
+.dockerignore
+*.pyc
+*.pyo
+*.egg-info
+.git
+
